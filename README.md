@@ -9,3 +9,7 @@ then if you want a ui to show when app is using the SpeechUtils ,you  also need 
 if you are sure you have done all things writen above,you can use my SpeechUtils in your project with the command
 "SpeechUtil.getInstance(Context context).setSpeechListener(SpeechUtil.OnSpeechListener listener).getSpeechContent();"
 the listener is a callback of speechutils ,you can do something you want if you have a speechresult in this callback;
+
+if your app want to show in appstore,you need change the sdk of "iflytek" because xunfei is request that
+and apply for a appid at xunfeikaifangpingtai 
+then  replace my appid with your appid 
